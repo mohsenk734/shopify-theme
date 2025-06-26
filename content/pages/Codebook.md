@@ -17,7 +17,6 @@ sections:
 
   - type: StoreExamplesSection      
   - type: ShowcaseScrollerSection
-  - type: VideoShowcaseSection
   - type: TestimonialSwiperSection
 
 

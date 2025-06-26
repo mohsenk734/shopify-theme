@@ -83,7 +83,6 @@ const FeatureIconsSection = () => {
                     </p>
 
                     <ul className="text-sm text-gray-700 space-y-2 mt-4">
-                        <li>✅ 60+ Liquid Code Snippets for Your Store</li>
                         <li>✅ Customizable, fast, and mobile-friendly</li>
                         <li>✅ Increases your Conversion rate and Sales!</li>
                     </ul>
