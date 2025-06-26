@@ -1,15 +1,13 @@
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-// نفس بيانات الأيقونات...
-const features = [/* ... */];
+const features = [/* ... بيانات الأيقونات ... */];
 
-const FeatureIconsSection = () => {
+const FeatureIconsSection: React.FC = () => {
     const [timeLeft, setTimeLeft] = useState('');
 
-    // احسب كم تبقى حتى 48 ساعة بعد أول تحميل
     useEffect(() => {
-        const offerDeadline = new Date().getTime() + 48 * 60 * 60 * 1000; // 48 ساعة من الآن
+        const offerDeadline = new Date().getTime() + 48 * 60 * 60 * 1000;
 
         const updateCountdown = () => {
             const now = new Date().getTime();
@@ -27,9 +25,8 @@ const FeatureIconsSection = () => {
             setTimeLeft(`${hours}h : ${minutes}m : ${seconds}s`);
         };
 
-        updateCountdown(); // لتحديث أولي سريع
+        updateCountdown();
         const interval = setInterval(updateCountdown, 1000);
-
         return () => clearInterval(interval);
     }, []);
 
@@ -87,7 +84,15 @@ const FeatureIconsSection = () => {
                         <li>✅ Increases your Conversion rate and Sales!</li>
                     </ul>
 
-                    <button className="mt-6 w-full bg-[#1a1a1a] hover:bg-black text-white py-3 rounded-lg font-bold text-lg transition-transform duration-200 hover:scale-105">
+                    <button
+                        onClick={() =>
+                            window.open(
+                                'https://pay.hotmart.com/O92568702O?checkoutMode=2&off=5whzk75o',
+                                '_blank'
+                            )
+                        }
+                        className="mt-6 w-full bg-[#1a1a1a] hover:bg-black text-white py-3 rounded-lg font-bold text-lg transition-transform duration-200 hover:scale-105"
+                    >
                         Buy Now →
                     </button>
 
@@ -99,6 +104,7 @@ const FeatureIconsSection = () => {
                     <p className="text-xs text-red-500 mt-1 text-center font-semibold">
                         ⚡ Offer ends in {timeLeft}
                     </p>
+
                 </div>
             </div>
         </section>
