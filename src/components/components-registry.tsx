@@ -63,6 +63,7 @@ const components: Record<string, ComponentType<any>> = {
     TestimonialsSlider: dynamic(() => import('./sections/TestimonialsSlider')),
     TestimonialSwiperSection: dynamic(() => import('./sections/TestimonialSwiperSection')),
     PrivacyPolicy: dynamic(() => import('./sections/PrivacyPolicy')),
+    codeyoutube: dynamic(() => import('./sections/codeyoutube')),
 
     VideoShowcaseSection: dynamic(() => import('./sections/VideoShowcaseSection')), // ✅ تم تسجيله هنا
 };

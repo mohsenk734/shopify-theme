@@ -73,8 +73,8 @@ const FeatureIconsSection = () => {
                     <h2 className="text-2xl font-bold text-[#1a1a1a]">SHOPIFY ULTIMATE LIQUID CODEBOOK</h2>
 
                     <div className="flex gap-4 items-center mt-2">
-                        <p className="line-through text-gray-400 text-sm">£259.99 GBP</p>
-                        <p className="text-xl text-[#ff9933] font-semibold">£27 GBP</p>
+                        <p className="line-through text-gray-400 text-sm">$259.99 </p>
+                        <p className="text-xl text-[#ff9933] font-semibold">$27 </p>
                         <span className="bg-[#e6f7ff] text-blue-600 px-2 py-1 rounded text-xs font-medium">£232.99 Off</span>
                     </div>
 

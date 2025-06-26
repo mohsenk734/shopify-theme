@@ -14,10 +14,10 @@ backgroundImage:
 sections:
   - type: FeatureIconsSection
   - type: TestimonialsSlider
+  - type: codeyoutube    
 
   - type: StoreExamplesSection      
   - type: ShowcaseScrollerSection
-  - type: VideoShowcaseSection
   - type: TestimonialSwiperSection
 
 
