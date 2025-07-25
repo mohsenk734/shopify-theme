@@ -52,6 +52,7 @@ export default function TermsOfService() {
             <p>
                 For any inquiries, support requests, or legal questions, please contact us at:<br />
                 <strong>Email:</strong>fakihllc1@gmail.com
+            </p>
         </main>
     );
 }
