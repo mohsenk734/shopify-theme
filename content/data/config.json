@@ -21,7 +21,7 @@
             {
                 "type": "Link",
                 "label": "Design Course",
-                "url": "/designs"
+                "url": "/"
             },
             {
                 "type": "Link",
@@ -39,14 +39,14 @@
                 "type": "Social",
                 "altText": "Facebook",
                 "label": "Facebook",
-                "url": "https://www.facebook.com/profile.php?id=100063452304705",
+                "url": "https://www.facebook.com/profile.php?id=61576701425912",
                 "icon": "facebook"
             },
             {
                 "type": "Social",
                 "altText": "YouTube",
                 "label": "YouTube",
-                "url": "https://www.youtube.com/@mohsen_abdullah",
+                "url": "https://www.youtube.com/",
                 "icon": "youtube"
             }
         ],
@@ -68,19 +68,31 @@
             {
                 "type": "Link",
                 "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
+                "url": "/projects",
                 "altText": ""
             },
             {
                 "type": "Link",
                 "label": "Privacy Policy",
-                "url": "/PrivacyPolicy",
+                "url": "/privacy",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "User Agreement",
+                "url": "/terms",
+                "altText": "Netlify templates"
+            },
+            {
+                "type": "Link",
+                "label": "Refund Policy",
+                "url": "/refund",
+                "altText": "Netlify templates"
+            },
+            {
+                "type": "Link",
+                "label": "Terms of service",
+                "url": "/terms-and-conditions",
                 "altText": "Netlify templates"
             }
         ],

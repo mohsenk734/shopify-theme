@@ -17,12 +17,12 @@ sections:
 
   - type: StoreExamplesSection      
   - type: ShowcaseScrollerSection
+  - type: VideoShowcaseSection
   - type: TestimonialSwiperSection
 
 
   - type: BeforeAfterSection
   - type: FaqAccordionSection
-  - type: PrivacyPolicy
   
 
 
